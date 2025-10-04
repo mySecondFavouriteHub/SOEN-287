@@ -1,0 +1,12 @@
+university_logo{
+    float:left;
+}
+log-in-form{
+    float:right;
+    text-align: center;
+    margin-top: 50px;
+}
+body{
+    background-color: #ECF8FD;
+    color: #272838;
+}

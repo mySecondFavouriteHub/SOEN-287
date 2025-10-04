@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Front Page</title>
+    <link rel="stylesheet" href="../CSS/front_page.css">
+  </head>
+  <body>
+    
+    <header>
+      
+    </header>
+    <main style="display:flex">
+      <div id="university-logo">
+        <img src="../Resources/university_logo.jpg" alt="University Logo" width="600" height="400">
+      </div>
+      <div id="log-in-form">
+        <div>
+          <img src="../Resources/blank_user.png" alt="hello???" width="100" height="100">
+        </div>
+        <form>
+          <div>
+            
+            <input type="radio" id="student" name="user_type" value="student" checked>
+            <label for="student">Student</label>
+            <input type="radio" id="admin" name="user_type" value="admin">
+            <label for="admin">Admin</label>
+          </div>
+          <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+          </div>
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <div>
+            <button type="submit">Log In</button>
+          </div>
+        </form>
+
+      </div>
+
+    </main>
+    <footer></footer>
+  </body>
+</html>
